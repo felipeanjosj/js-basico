@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula01</title>
+        <link rel="shortcut icon" href="./imagens/logo.png"/>
+    </head>
+    <body>
+        <header>
+            <img/>
+            <nav>
+                <ul>
+                    <li>Página inicial</li>
+                    <li>Sobre nós</li>
+                    <li>Cursos</li>
+                    <li>Contato</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <figure>
+                    <img src="./imagens/sala1.jpg" alt="Instrutora dando aula na UTD"/>
+                    <figcaption>Instrutora dando aula na UTD</figcaption>
+                </figure>
+            </article>
+            <section>
+                <div>
+                    <form action="#" method="">
+                        <fieldset>
+                            <legend>Dados Cadastrais</legend>
+                            <label for="nomeId">Nome:</label><br/>
+                            <input type="texto"
+                                     id="nomeId"
+                                     placeholder="Digite seu nome"
+                                     required/>
+                            <br/>
+                            <label for="enderecoId">Endereço:</label><br/>
+                            <input type="texto" 
+                                    id="enderecoId"
+                                    placeholder="Digite seu endereço"
+                                    readonly />
+                            <br/>    
+                            <label for="telefoneId">Telefone:</label><br/>
+                            <input type="texto"
+                                    id="telefoneId"
+                                    placeholder="Digite seu telefone"/>
+                            <br/>  
+                            <p>  Grau de instrução:
+                            <label for="medio">
+                                <input type="radio" id="medio" name="escolaridade">
+                                Ensino médio
+                            </label>
+                            <label for="superior">
+                                <input type="radio" id="superior" name="escolaridade">
+                                Ensino superior
+                            </label>
+                            <label for="pos">
+                                <input type="radio" id="pos" name="escolaridade">
+                                Pós graduação
+                            </label>
+                            </p>
+
+                            <input type="submit" value="enviar">
+                        </fieldset>
+                    </form>
+                </div>
+
+            </section>
+            <aside>
+                <ol>
+                    <li>Python</li>
+                    <li>PHP</li>
+                    <li>Java</li>
+                    <li>Javascript</li>
+                </ol>
+            </aside>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>

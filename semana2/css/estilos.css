@@ -1,0 +1,49 @@
+body{
+    height: 100%;
+    margin: 0px, 5px;
+    color: white;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+}
+main {
+    display:flex; flex-direction:row;
+}
+a{
+    color: white;
+}
+fieldset{
+    border-radius: 5px;
+    border-color:black;
+    background-color: teal;
+}
+form{
+    margin: 5px;
+}
+form input{
+    width: 30%;
+    height: 25px;
+}
+button {
+    width: 150px;
+    height: 30;
+    color: rgb(0, 119, 255);
+    border-color: aqua;
+    border-radius: 3px;
+    background-color: black;
+}
+#left{
+    display: flex; 
+    flex-direction: column;
+    width: 40vw;
+}
+#right{
+    display: flex; 
+    flex-direction: column;
+    width: 60vw;
+}
+
+#logo{
+    width: 300px;
+    height: auto;
+}
